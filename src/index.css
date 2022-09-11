@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0.719);
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-container{
+  height: 800px;
+}
+
+.custom-container2{
+  transition: height 3s;
+  height: 300px;
+}
+.custom-class{
+  position: relative;
+  width: 40%;
+  top: 50%;
+  left: 30%;
+}
+
+.RSPBprogressBar{
+  background-color: rgba(14, 13, 13, 0.144);
+  border-radius: 10px;
+}
+
+.RSPBprogression{
+  height: 10px;
+  border-radius: 10px;
+}
+
+input{
+  border: None; 
+}
+.border-removed-input {
+  border: none;
+  border-bottom: 2px solid #eee;
+}
