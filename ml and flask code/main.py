@@ -46,7 +46,7 @@ def ws_connect():
         pass
 
 def get_date(username):
-    bearer_token = 'AAAAAAAAAAAAAAAAAAAAADvVggEAAAAAUk07Rd983sFc6ERVvDVD3Y2JvIY%3DKoKb5AHPdPq5po6izyEUInrSDOsK62Lt8SbKNPwIUUuCwLQNHb'
+    bearer_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
     client = tweepy.Client(bearer_token=bearer_token)
 
     # Replace user ID
